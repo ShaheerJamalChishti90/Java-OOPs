@@ -25,9 +25,14 @@ public class Main {
         System.out.printf("This is the length of the username: %s\n", username.length());
 
         String friend = new String("Saad");
-        System.out.printf("%s is the friend of %s", friend, username);
-
+        System.out.printf("%s is the friend of %s\n", friend, username);
         
+        String new_friend = friend.replace("Saad", "Saad Iftikhar");
+        System.out.printf("%s is the friend of %s\n", new_friend, username);
+        
+        // Sub String - similar to the string slicing in Python
+        System.out.println(username.substring(0, 8));
+
     }
 }
 
