@@ -8,11 +8,11 @@ public class Main {
         // Primitives
         String user = "Shaheer Jamal";
         int age = 19;
-        //        int ph = 0300123456;
+        // int ph = 0300123456;
         long phone = 0300123456L;
         float height = 5.9F;
         double weight = 55.4;
-        char name_initial = 'S';
+        // char name_initial = 'S';
         boolean is_student = true;
         
         // This is the basic Formated string in java (similar to the F String of Python)
@@ -43,6 +43,11 @@ public class Main {
 // matlab: String ki length nikalna, 
 // ab string khud ek non primitive data type hai tou mein uske upar length wala function apply karna ---
 
+// Non-Primitive Data Types
+// String, Arrays 
+
 // new: iss keyword ki help se hum classes ke objects banatay hain
+
+// Strings: Java ke ander strings immutable hoti hain
 
 
