@@ -6,9 +6,13 @@ public class ConditionalStatements {
 //    Conditional Stt
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("What is it right now? (eg: day, night, evening)):  ");
-        String daytime = sc.nextLine();
+        boolean is_day = true;
+        boolean is_night = false;
 
+        if (is_night){
+            System.out.println("It is day right now!");
+        } else {
+            System.out.println("It is night");
         }
 
 
